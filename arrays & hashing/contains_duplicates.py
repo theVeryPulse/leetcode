@@ -17,5 +17,6 @@ def main():
     contains_duplicates = solution.containsDuplicate(numbers)
     print(contains_duplicates)
 
+
 if __name__ == "__main__":
     main()
