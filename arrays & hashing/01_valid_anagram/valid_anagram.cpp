@@ -1,4 +1,5 @@
 #include <string>
+#include <iostream>
 
 class Solution
 {
@@ -7,7 +8,7 @@ class Solution
     {
         if (s.size() != t.size())        
             return false;
-        unsigned int track[26];
+        unsigned int track[26] = {0};
         std::string::const_iterator iter_s = s.begin();
         std::string::const_iterator iter_t = t.begin();
         while (iter_s != s.end())
