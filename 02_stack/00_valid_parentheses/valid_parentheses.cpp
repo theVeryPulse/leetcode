@@ -18,9 +18,9 @@ class Solution
             {
                 if (check.size() == 0)
                     return false;
-                if (check.top() == '(' && c == ')' ||
-                    check.top() == '[' && c == ']' ||
-                    check.top() == '{' && c == '}')
+                if ((check.top() == '(' && c == ')') ||
+                    (check.top() == '[' && c == ']') ||
+                    (check.top() == '{' && c == '}'))
                     check.pop();
                 else
                     return false;
