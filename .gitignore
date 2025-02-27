@@ -1,2 +1,29 @@
 .vscode
 *.exe
+
+# Build directories
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.vcxproj.*
+
+# Rider files
+.idea/
+
+# Logs
+*.log
+
+# Dependency caches
+packages/
+node_modules/
+
+# Environment files
+.env
+
+# Generated files
+*.Designer.cs
+*.generated.cs
