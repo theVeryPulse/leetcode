@@ -12,9 +12,8 @@ class Solution
         value_index.reserve(std::ranges::size(nums));
         for (size_t i = 0; i < std::ranges::size(nums); ++i)
         {
-            if (auto it = value_index.find(target - nums[i]);
-                it != value_index.end())
-                return {it->second, static_cast<int>(i)};
+            if (value_index.contains(target - nums[i]))
+                return {target - nums[i], static_cast<int>(i)};
             else
                 value_index[nums[i]] = i;
         }
