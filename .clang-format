@@ -7,6 +7,5 @@ PenaltyBreakAssignment: '1000'
 PointerAlignment: Left
 SortIncludes: 'false'
 Standard: Cpp11
-SpaceBeforeCpp11BracedList: 'true'
 
 ...
